@@ -11,37 +11,37 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
-		<title>Chat Box</title>
+		<title>Chat Group</title>
 	</head>
 	<body>
 		<div class="join-container">
 			<header class="join-header">
-				<h1><i class="fas fa-smile"></i> Chat Box</h1>
+				<h1><i class="fas fa-paper-plane"></i> Chat Grup</h1>
 			</header>
 			<main class="join-main">
 				<form action="chat.html">
 					<div class="form-control">
 						<label for="username">Username</label>
 						<input
+							class="form-input"
 							type="text"
 							name="username"
 							id="username"
-							placeholder="Enter username..."
+							placeholder="Masukan Username"
 							required
 						/>
 					</div>
 					<div class="form-control">
-						<label for="room">Room</label>
+						<label for="room">Pilih Room</label>
 						<select name="room" id="room">
-							<option value="JavaScript"><b>PM</b></option>
-							<option value="Python">System Analysis</option>
-							<option value="PHP">Developer</option>
-							<option value="C#">Creative Design</option>
-							<option value="Ruby">Sosial Media Specialis</option>
-							<option value="Java">Java</option>
+							<option value="Developer">Developer</option>
+							<option value="System Analist">System Analist</option>
+							<option value="Project Manager">Project Manager</option>
+							<option value="Creative Desain">Creative Desain</option>
+							<option value="Social Media Specialist">Social Media Specialist</option>
 						</select>
 					</div>
-					<button type="submit" class="btn"><b>Join Chat</b></button>
+					<button type="submit" class="btn">Join Chat</button>
 				</form>
 			</main>
 		</div>
